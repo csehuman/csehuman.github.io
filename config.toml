@@ -1,0 +1,13 @@
+baseURL = "https://csehuman.github.io/"
+languageCode = "en-us"
+title = "csehuman의 로그"
+theme = "PaperMod"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+[params]
+  mainSections = ["post"]
+
+[markup.goldmark.renderer]
+  unsafe = true
